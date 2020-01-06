@@ -13,6 +13,11 @@
 		121AD1CA2322F6A900BD463A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121AD1C92322F6A900BD463A /* Assets.xcassets */; };
 		121AD1CD2322F6A900BD463A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121AD1CC2322F6A900BD463A /* Preview Assets.xcassets */; };
 		121AD1D02322F6A900BD463A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121AD1CE2322F6A900BD463A /* LaunchScreen.storyboard */; };
+		121AD1DA2322F99F00BD463A /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AD1D92322F99F00BD463A /* Tank.swift */; };
+		121AD1DC232449EB00BD463A /* TankLevelIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AD1DB232449EB00BD463A /* TankLevelIndicator.swift */; };
+		121AD1DE23244A6900BD463A /* TankLevelIndicatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AD1DD23244A6900BD463A /* TankLevelIndicatorViewModel.swift */; };
+		121AD1E02324FAAE00BD463A /* VerticalStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AD1DF2324FAAE00BD463A /* VerticalStepper.swift */; };
+		121AD1E22325720500BD463A /* VerticalStepperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AD1E12325720500BD463A /* VerticalStepperViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		121AD1CC2322F6A900BD463A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		121AD1CF2322F6A900BD463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121AD1D12322F6A900BD463A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121AD1D92322F99F00BD463A /* Tank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
+		121AD1DB232449EB00BD463A /* TankLevelIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankLevelIndicator.swift; sourceTree = "<group>"; };
+		121AD1DD23244A6900BD463A /* TankLevelIndicatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankLevelIndicatorViewModel.swift; sourceTree = "<group>"; };
+		121AD1DF2324FAAE00BD463A /* VerticalStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStepper.swift; sourceTree = "<group>"; };
+		121AD1E12325720500BD463A /* VerticalStepperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStepperViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,9 @@
 		121AD1C22322F6A600BD463A /* TankFiller */ = {
 			isa = PBXGroup;
 			children = (
+				121AD1DD23244A6900BD463A /* TankLevelIndicatorViewModel.swift */,
+				121AD1DB232449EB00BD463A /* TankLevelIndicator.swift */,
+				121AD1D92322F99F00BD463A /* Tank.swift */,
 				121AD1C32322F6A600BD463A /* AppDelegate.swift */,
 				121AD1C52322F6A600BD463A /* SceneDelegate.swift */,
 				121AD1C72322F6A600BD463A /* ContentView.swift */,
@@ -63,6 +76,8 @@
 				121AD1CE2322F6A900BD463A /* LaunchScreen.storyboard */,
 				121AD1D12322F6A900BD463A /* Info.plist */,
 				121AD1CB2322F6A900BD463A /* Preview Content */,
+				121AD1DF2324FAAE00BD463A /* VerticalStepper.swift */,
+				121AD1E12325720500BD463A /* VerticalStepperViewModel.swift */,
 			);
 			path = TankFiller;
 			sourceTree = "<group>";
@@ -146,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121AD1DC232449EB00BD463A /* TankLevelIndicator.swift in Sources */,
+				121AD1E02324FAAE00BD463A /* VerticalStepper.swift in Sources */,
+				121AD1E22325720500BD463A /* VerticalStepperViewModel.swift in Sources */,
+				121AD1DE23244A6900BD463A /* TankLevelIndicatorViewModel.swift in Sources */,
 				121AD1C42322F6A600BD463A /* AppDelegate.swift in Sources */,
 				121AD1C62322F6A600BD463A /* SceneDelegate.swift in Sources */,
+				121AD1DA2322F99F00BD463A /* Tank.swift in Sources */,
 				121AD1C82322F6A600BD463A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
