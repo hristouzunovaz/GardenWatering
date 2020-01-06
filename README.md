@@ -1,6 +1,10 @@
 # Watering the garden flowers
 ## The idea
-I have this beautiful garden that is of course a lot of work to maintain. I was thinking about automating the process of watering the plants.
+I have this beautiful garden that is of course a lot of work to maintain. 
+
+![IMG_3929](https://user-images.githubusercontent.com/9898301/71806416-6d374d80-3071-11ea-8e39-544c99b28cdf.jpg)
+
+I was thinking about automating the process of watering the plants.
 To do this I will use my local well, water pump, a water tank and water lines with sprinklers to deliver water to the plants. Refer to the diagram below
 
 ```mermaid
